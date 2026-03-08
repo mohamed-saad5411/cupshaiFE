@@ -1,5 +1,56 @@
 @import "tailwindcss";
 
+/* ------------------------------------------- */
+.container{
+  @apply w-[100%] md:w-[720px] lg:w-[960px] xl:w-11/12 m-auto
+}
+
+/* btn */
+.btn{
+  @apply rounded-md px-6 py-2 text-lg font-semibold shadow-xs cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 
+}
+.main-btn{
+  @apply text-white bg-[#09537C]  hover:text-[#09537C] hover:bg-white
+}
+.secondary-btn{
+  @apply text-[#09537C] bg-white  hover:text-white hover:bg-[#09537C]
+}
+.btn-res{
+  @apply rounded-lg px-3 py-1 text-white bg-[#09537C]  hover:text-[#09537C] hover:bg-white text-[14px] font-semibold shadow-xs cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 
+}
+
+
+/* Heading & Paragraph & Links */
+h1,h2,h3,h4,h5,h6{
+  @apply font-[500] font-bold block
+}
+h1{
+  @apply text-[2rem]  
+}
+h2{
+  @apply text-[1.5rem]  
+}
+h3{
+  @apply text-[1.17rem]  
+}
+h4{
+  @apply text-[1rem]
+}
+h5{
+  @apply text-[0.83rem]
+}
+h6{
+  @apply text-[0.67rem]
+}
+
+p{
+  @apply text-[1em]   
+}
+
+
+
+/* ------------------------------------------- */
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
